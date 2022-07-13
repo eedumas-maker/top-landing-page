@@ -10,11 +10,6 @@ div {
     border-style: solid;
 }
 
-.spacer {
-    width: 100px;
-    flex-shrink: 0;
-}
-
 body {
     margin: 0;
     font-size: 16px;
@@ -49,6 +44,12 @@ button.border {
     justify-content: space-between;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 0px 16px;
+}
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -61,26 +62,33 @@ ul {
     gap: 24px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 16px;
-}
-
 .hero {
+    display: flex;
     background-color: #1F2937;
+    justify-content: center;
 }
 
-.hero.main{
+.hcontainer {
+    padding: 48px 0px;
+    display: flex;
+    flex-shrink: 0;
+    width: 900px;
+}
+
+.hmain{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
-.hero.secondary{
+.hsecondary{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+img {
+    height: 200px;
+    width: auto;
 }
 
 .info {
