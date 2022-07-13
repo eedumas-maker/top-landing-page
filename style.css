@@ -4,6 +4,17 @@ html, body {
     height: 100%;
 }
 
+div {
+    border: red;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.spacer {
+    width: 100px;
+    flex-shrink: 0;
+}
+
 body {
     margin: 0;
     font-size: 16px;
@@ -29,6 +40,13 @@ button.border {
 .header, .footer{
     height: 72px;
     background: #1F2937;
+}
+
+.header .container {
+    display: flex;
+    flex-shrink: 0;
+    width: 900px;
+    justify-content: space-between;
 }
 
 .logo {
@@ -106,6 +124,7 @@ ul {
 }
 
 .quote {
+    padding: 18px;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
