@@ -4,8 +4,8 @@ html, body {
     height: 100%;
 }
 
-/* for testing only */
-/* div {
+/* for testing only
+div {
     border: red;
     border-width: 1px;
     border-style: solid;
@@ -66,7 +66,6 @@ ul {
 .hero .container {
     padding: 48px 0px;
     display: flex;
-    flex-shrink: 0;
     width: 900px;
 }
 
@@ -79,10 +78,15 @@ ul {
 .hero .secondary{
     font-size: 18px;
     color: #e5e7eb;
+    padding: 8px 0px;
+}
+
+.hero .text {
+    padding-right: 32px;
 }
 
 img {
-    height: 200px;
+    height: 250px;
     width: auto;
 }
 
