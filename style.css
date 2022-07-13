@@ -4,6 +4,7 @@ html, body {
     height: 100%;
 }
 
+/* for testing only */
 div {
     border: red;
     border-width: 1px;
@@ -68,20 +69,20 @@ ul {
     justify-content: center;
 }
 
-.hcontainer {
+.hero .container {
     padding: 48px 0px;
     display: flex;
     flex-shrink: 0;
     width: 900px;
 }
 
-.hmain{
+.hero .main{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
-.hsecondary{
+.hero .secondary{
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -132,16 +133,26 @@ img {
 }
 
 .quote {
-    padding: 18px;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote .container {
+    padding: 48px 0px;
+    display: flex;
+    flex-shrink: 0;
+    width: 900px;
+    flex-direction: column;
 }
 
 .attrib {
-    font-style: bold;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 .footer {
