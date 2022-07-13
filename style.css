@@ -5,11 +5,11 @@ html, body {
 }
 
 /* for testing only */
-div {
+/* div {
     border: red;
     border-width: 1px;
     border-style: solid;
-}
+} */
 
 body {
     margin: 0;
@@ -26,12 +26,6 @@ button {
     font-size: 16px;
 }
 
-
-button.border {
-    border-style: solid;
-    border-radius: 1px;
-    border-color: #f9faf8;
-}
 
 .header, .footer{
     height: 72px;
@@ -92,10 +86,6 @@ img {
     width: auto;
 }
 
-.info {
-
-}
-
 .whereto {
     margin: 32px;
     font-size: 24px;
@@ -132,11 +122,12 @@ img {
     height: 100px;
 }
 
+
 .quote {
-    font-size: 36px;
+    font-size: 24px;
     color: #1F2937;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 400;
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
@@ -146,7 +137,7 @@ img {
     padding: 48px 0px;
     display: flex;
     flex-shrink: 0;
-    width: 900px;
+    width: 700px;
     flex-direction: column;
 }
 
@@ -154,6 +145,34 @@ img {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.call {
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+
+.call .container {
+    background-color: #3882f6;
+    margin: 48px 0px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 700px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+button.border {
+    border-style: solid;
+    border-color: #f9faf8;
+    border-width: 2px;
+    align-self: center;
+}
+
 
 .footer {
     display: flex;
