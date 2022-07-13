@@ -19,6 +19,7 @@ button {
     font-size: 16px;
 }
 
+
 button.border {
     border-style: solid;
     border-radius: 1px;
@@ -64,11 +65,51 @@ ul {
     color: #e5e7eb;
 }
 
+.info {
+
+}
+
+.whereto {
+    margin: 32px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    height: 200px;
+}
+
+.choice {
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: 1;
+}
+
+.description {
+    text-align: center;
+    font-style: italic;
+    padding: 8px;
+}
+
+.land {
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #3882f6;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+}
+
 .quote {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
-    font-weight: light;
+    font-weight: lighter;
     background-color: #e5e7eb;
 }
 
